@@ -231,7 +231,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgba(141, 182, 0, 1);
+  background: coral;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -239,8 +239,8 @@ a:hover {
   line-height: 1;
   font-size: 16px;
   border-radius: 50%;
-  right: 15px;
-  bottom: 15px;
+  right: 50px;
+  bottom: 50px;
   transition: background 0.5s;
   z-index: 11;
 }
@@ -308,7 +308,7 @@ a:hover {
 .navbar-b.navbar-trans .nav-item,
 .navbar-b.navbar-reduce .nav-item {
   position: relative;
-  padding-right: 10px;
+  padding-right: 5px;
   padding-left: 0;
 }
 
@@ -316,7 +316,8 @@ a:hover {
 .navbar-b.navbar-reduce .nav-link {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 200;
+  font-size: 0.8rem;
 }
 
 .navbar-b.navbar-trans .nav-link:before,
@@ -454,6 +455,7 @@ a:hover {
   width: 25px;
   margin-top: 4px;
   margin-bottom: 4px;
+  margin-right: 40px;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   left: 0;
@@ -471,6 +473,7 @@ a:hover {
   position: absolute;
   left: 12px;
   top: 10px;
+  margin-right: 40px;
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
   opacity: 0.9;
@@ -484,6 +487,7 @@ a:hover {
   position: absolute;
   left: 12px;
   top: 10px;
+  margin-right: 40px;
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
   opacity: 0.9;
@@ -542,14 +546,16 @@ img:hover {
 
 .line1 .title-box {
 	margin: auto;
+    border-left: 10px solid coral;
+    background-color: rgba(254,254,254, .5);
 }
 
 .line1 .title-box .title-a {
-	font-family: Righteous ;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 2.4rem;
 	font-weight: 500;
 	text-align: left;
-	color: #000;
+	color: #555;
 	padding:30px;
 	margin-top: 60px;
 }
@@ -650,15 +656,16 @@ video {
 
 .rb .title-box {
 	margin: auto;
-	border-left: 10px solid #ff0038;
+	border-left: 10px solid #faf0be;
+    background-color: rgba(254,254,254, .5);
 }
 
 .rb .title-a {
-	font-family:Righteous ;
-	font-size: 3.0rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2.4rem;
 	font-weight: 500;
 	text-align: left;
-	color: #111;
+	color: #555;
 	padding:10px;
 	margin-top: 100px;
 }
@@ -791,23 +798,21 @@ video {
 
 .anim .title-a {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.8rem;
-	font-weight: 500;
-
+	font-size: 1.2rem;
+	font-weight: 300;
 	color: #fff;
-	padding:5px 30px;
+	padding: 5px 30px;
 	margin-top: 100px;
-	margin bottom: 20px;
+	margin-bottom: 20px;
 	margin-left:100px;
 	background: #1e90ff;
-
-			border-radius: 10px;
+    border-radius: 10px;
 }
 
 .anim .title-a1 {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.8rem;
-	font-weight: 500;
+	font-size: 1.2rem;
+	font-weight: 300;
 
 	margin-left:100px;
 	color: #fff;
@@ -820,8 +825,8 @@ video {
 .anim .title-a2 {
 	width: 150px;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.8rem;
-	font-weight: 500;
+	font-size: 1.2rem;
+	font-weight: 300;
 	color: #fff;
 	background: #a50b5e;
 	padding:5px 30px;
@@ -1062,7 +1067,7 @@ footer .credits a {
 
   .navbar-b.navbar-trans .nav-item,
   .navbar-b.navbar-reduce .nav-item {
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   .navbar-b.navbar-trans .nav-link:before,
