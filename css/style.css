@@ -797,7 +797,7 @@ video {
 	color: #fff;
 	padding:5px 30px;
 	margin-top: 100px;
-	margin-bottom: 20px;
+	margin bottom: 20px;
 	margin-left:100px;
 	background: #1e90ff;
 
@@ -1142,6 +1142,7 @@ footer .credits a {
 	font-family: Open sans;
 	font-size: 2.0rem;
 	font-weight: 200;
+	text-transform: ;
 	color: #555;
 	margin-top: 0;
 }
@@ -1150,6 +1151,7 @@ footer .credits a {
 	font-family: Open sans;
 	font-size: 2.0rem;
 	font-weight: 200;
+	text-transform: ;
 	color: #555;
 	margin-top: 0;
 }
@@ -1219,6 +1221,8 @@ footer .credits a {
 	border-radius: 0.1rem;
 	margin-bottom: 3rem;
 	margin-top: 2rem;
+	-webkit-backface-visibility:;
+	backface-visibility:;
 	background-color: transparent;
 	z-index:"35";
 	height: 90%;
